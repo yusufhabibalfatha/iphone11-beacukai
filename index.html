@@ -9,28 +9,26 @@
     <meta name="description" content="Informasi penawaran iPhone 11 Bea Cukai 128GB warna Red. Harga Rp3.900.000 dengan sistem pemesanan. Cek spesifikasi, harga, dan cara pesan via WhatsApp.">
     <meta name="robots" content="index, follow">
     
-    <!-- GANTI URL CANONICAL DI BAWAH INI SETELAH DOMAIN/GITHUB PAGES FINAL DIKETAHUI -->
-    <link rel="canonical" href="https://username.github.io/repo-anda/">
+    <!-- URL Canonical -->
+    <link rel="canonical" href="https://yusufhabibalfatha.github.io/iphone11-beacukai/">
     
-    <!-- Open Graph / Social Media Placeholder -->
+    <!-- Open Graph / Social Media -->
     <meta property="og:title" content="iPhone 11 Bea Cukai 128GB Red - Harga Rp3.900.000">
     <meta property="og:description" content="Informasi penawaran iPhone 11 Bea Cukai 128GB. Pemesanan melalui sistem DP. Cek detail dan hubungi via WhatsApp.">
     <meta property="og:type" content="website">
-    <!-- GANTI URL GAMBAR DI BAWAH INI DENGAN URL GAMBAR YANG SUDAH DI-HOSTING -->
-    <meta property="og:image" content="https://example.com/path-to-your-image.jpg">
-    <meta property="og:url" content="https://username.github.io/repo-anda/">
+    <meta property="og:image" content="https://github.com/yusufhabibalfatha/iphone11-beacukai/blob/c92cb68c7e5957a30909d6e8879b13da04abc7d0/iphone11-red.jpeg">
+    <meta property="og:url" content="https://yusufhabibalfatha.github.io/iphone11-beacukai/">
 
     <!-- Favicon Placeholder -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
 
     <!-- JSON-LD Schema (Product) -->
-    <!-- Catatan: Status ketersediaan diset ke PreOrder karena barang belum ada di tangan penjual -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
       "@type": "Product",
       "name": "iPhone 11 Bea Cukai 128GB Red",
-      "image": "https://example.com/path-to-your-image.jpg",
+      "image": "https://github.com/yusufhabibalfatha/iphone11-beacukai/blob/c92cb68c7e5957a30909d6e8879b13da04abc7d0/iphone11-red.jpeg",
       "description": "Penawaran iPhone 11 Bea Cukai 128GB warna Red. Kelengkapan setbox, Battery Health 80%. Sistem pemesanan melalui pemasok dengan estimasi kedatangan 15-20 hari.",
       "brand": {
         "@type": "Brand",
@@ -38,7 +36,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://username.github.io/repo-anda/",
+        "url": "https://yusufhabibalfatha.github.io/iphone11-beacukai/",
         "priceCurrency": "IDR",
         "price": "3900000",
         "availability": "https://schema.org/PreOrder",
@@ -48,16 +46,16 @@
     </script>
 
     <style>
-        /* CSS Variables untuk kemudahan kustomisasi */
+        /* CSS Variables - Tema Biru & Merah */
         :root {
-            --primary-red: #D9382E;
+            --primary-red: #E63946; /* Merah cerah untuk harga */
+            --accent-blue: #007AFF; /* Biru khas Apple */
+            --accent-blue-hover: #0056b3;
             --text-dark: #1D1D1F;
             --text-light: #6E6E73;
-            --bg-color: #F5F5F7;
+            --bg-color: #F8F9FA;
             --card-bg: #FFFFFF;
-            --wa-green: #25D366;
-            --wa-green-hover: #1EBE5A;
-            --border-radius: 12px;
+            --border-radius: 16px;
             --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
 
@@ -89,7 +87,8 @@
 
         a {
             text-decoration: none;
-            color: var(--primary-red);
+            color: var(--accent-blue);
+            transition: color 0.2s ease;
         }
 
         /* Layout */
@@ -100,23 +99,26 @@
         }
 
         section {
-            padding: 60px 0;
+            padding: 70px 0;
         }
 
         .section-title {
             font-size: 1.8rem;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
             text-align: center;
             color: var(--text-dark);
+            font-weight: 700;
         }
 
         /* Navigation */
         .navbar {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 1px 10px rgba(0,0,0,0.05);
         }
 
         .nav-container {
@@ -125,25 +127,28 @@
             padding: 15px 0;
             overflow-x: auto;
             white-space: nowrap;
-            gap: 20px;
+            gap: 10px;
         }
 
         .nav-container a {
             color: var(--text-dark);
             font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.2s;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.2s ease;
         }
 
         .nav-container a:hover {
-            color: var(--primary-red);
+            background-color: rgba(0, 122, 255, 0.1);
+            color: var(--accent-blue);
         }
 
         /* Hero Section */
         .hero {
-            background-color: var(--card-bg);
-            padding: 40px 0;
-            border-bottom: 1px solid #E5E5EA;
+            background: linear-gradient(135deg, #F0F8FF 0%, #E6F2FF 100%);
+            padding: 60px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
         }
 
         .hero-content {
@@ -160,33 +165,54 @@
         }
 
         .hero-image {
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            transition: transform 0.4s ease;
+        }
+
+        .hero-image:hover {
+            transform: translateY(-5px) scale(1.02);
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: var(--accent-blue);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
         }
 
         .hero-text h1 {
             font-size: 2rem;
             line-height: 1.2;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: var(--text-dark);
+            font-weight: 800;
         }
 
         @media (min-width: 768px) {
             .hero-text h1 {
-                font-size: 2.5rem;
+                font-size: 2.6rem;
             }
         }
 
         .hero-price {
-            font-size: 1.8rem;
-            font-weight: 700;
+            font-size: 2.2rem;
+            font-weight: 800;
             color: var(--primary-red);
             margin-bottom: 20px;
         }
 
         .hero-summary {
             color: var(--text-light);
-            margin-bottom: 30px;
+            margin-bottom: 35px;
             font-size: 1.05rem;
+            line-height: 1.7;
         }
 
         /* Buttons */
@@ -194,22 +220,24 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background-color: var(--wa-green);
+            background-color: var(--accent-blue);
             color: white;
-            padding: 15px 30px;
+            padding: 18px 35px;
             border-radius: 30px;
             font-weight: 600;
             font-size: 1.1rem;
-            transition: background-color 0.3s, transform 0.2s;
+            transition: all 0.3s ease;
             border: none;
             cursor: pointer;
             width: 100%;
             text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 122, 255, 0.3);
         }
 
         .btn-wa:hover {
-            background-color: var(--wa-green-hover);
-            transform: translateY(-2px);
+            background-color: var(--accent-blue-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 122, 255, 0.4);
             color: white;
         }
 
@@ -217,32 +245,47 @@
         .card {
             background-color: var(--card-bg);
             border-radius: var(--border-radius);
-            padding: 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            padding: 35px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
             margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         }
 
         /* Table */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         th, td {
-            padding: 15px;
+            padding: 16px;
             text-align: left;
-            border-bottom: 1px solid #E5E5EA;
+            border-bottom: 1px solid #F0F0F0;
         }
 
         th {
             width: 40%;
             color: var(--text-light);
             font-weight: 500;
+            background-color: #FAFAFA;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
         }
 
         td {
             font-weight: 600;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        tr:hover th, tr:hover td {
+            background-color: #F0F8FF;
         }
 
         /* Lists */
@@ -253,8 +296,9 @@
 
         .step-list li {
             position: relative;
-            padding-left: 50px;
-            margin-bottom: 20px;
+            padding-left: 55px;
+            margin-bottom: 25px;
+            color: var(--text-dark);
         }
 
         .step-list li::before {
@@ -262,16 +306,18 @@
             counter-increment: my-counter;
             position: absolute;
             left: 0;
-            top: 0;
-            background-color: var(--primary-red);
+            top: -2px;
+            background-color: var(--accent-blue);
             color: white;
-            width: 30px;
-            height: 30px;
+            width: 32px;
+            height: 32px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 3px 10px rgba(0, 122, 255, 0.3);
         }
 
         .check-list {
@@ -281,40 +327,55 @@
 
         .check-list li {
             position: relative;
-            padding-left: 30px;
-            margin-bottom: 12px;
+            padding-left: 35px;
+            margin-bottom: 15px;
         }
 
         .check-list li::before {
             content: "✓";
             position: absolute;
             left: 0;
-            color: var(--wa-green);
+            top: 2px;
+            color: white;
+            background-color: var(--accent-blue);
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
             font-weight: bold;
         }
 
         /* Alert / Disclaimer Box */
         .alert-box {
             background-color: #FFF3CD;
-            border-left: 4px solid #FFC107;
-            padding: 20px;
-            border-radius: 4px;
-            margin-top: 20px;
+            border-left: 5px solid #FFC107;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 25px;
             font-size: 0.95rem;
             color: #664D03;
+            line-height: 1.6;
         }
 
         /* FAQ */
         details {
             background-color: var(--card-bg);
             border-radius: var(--border-radius);
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            transition: all 0.3s ease;
+        }
+
+        details:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.06);
         }
 
         summary {
-            padding: 20px;
+            padding: 22px;
             font-weight: 600;
             cursor: pointer;
             list-style: none;
@@ -322,6 +383,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            color: var(--text-dark);
         }
 
         summary::-webkit-details-marker {
@@ -331,7 +393,7 @@
         summary::after {
             content: "+";
             font-size: 1.5rem;
-            color: var(--text-light);
+            color: var(--accent-blue);
             transition: transform 0.3s;
         }
 
@@ -340,24 +402,31 @@
         }
 
         details[open] summary {
-            border-bottom: 1px solid #E5E5EA;
+            border-bottom: 1px solid #F0F0F0;
+            color: var(--accent-blue);
         }
 
         .faq-content {
-            padding: 20px;
+            padding: 22px;
             color: var(--text-light);
+            line-height: 1.7;
         }
 
         /* CTA Closing */
         .cta-closing {
             text-align: center;
-            background-color: var(--card-bg);
-            padding: 60px 20px;
-            border-top: 1px solid #E5E5EA;
+            background: linear-gradient(135deg, #F0F8FF 0%, #E6F2FF 100%);
+            padding: 80px 20px;
+            border-top: 1px solid rgba(0,0,0,0.05);
         }
 
         .cta-closing h2 {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+
+        .cta-closing p {
+            margin-bottom: 35px;
         }
 
         .cta-closing .btn-wa {
@@ -368,33 +437,37 @@
         /* Footer */
         footer {
             text-align: center;
-            padding: 30px 20px;
+            padding: 35px 20px;
             color: var(--text-light);
-            font-size: 0.85rem;
-            background-color: var(--bg-color);
+            font-size: 0.9rem;
+            background-color: #FFFFFF;
+            border-top: 1px solid #F0F0F0;
         }
 
         /* Floating WA Button */
         .floating-wa {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: var(--wa-green);
+            bottom: 25px;
+            right: 25px;
+            background-color: var(--accent-blue);
             color: white;
-            width: 60px;
-            height: 60px;
+            width: 65px;
+            height: 65px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            box-shadow: 0 4px 15px rgba(0, 122, 255, 0.4);
             z-index: 999;
-            transition: transform 0.2s;
+            transition: all 0.3s ease;
+            animation: pulse-blue 2s infinite;
         }
 
         .floating-wa:hover {
-            transform: scale(1.05);
+            transform: scale(1.1);
+            background-color: var(--accent-blue-hover);
             color: white;
+            animation: none;
         }
 
         .floating-wa svg {
@@ -403,10 +476,17 @@
             fill: currentColor;
         }
 
+        /* Animasi Pulse untuk Tombol Melayang */
+        @keyframes pulse-blue {
+            0% { box-shadow: 0 0 0 0 rgba(0, 122, 255, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(0, 122, 255, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(0, 122, 255, 0); }
+        }
+
         /* Accessibility: Focus states */
         a:focus-visible, button:focus-visible, summary:focus-visible {
-            outline: 3px solid var(--primary-red);
-            outline-offset: 2px;
+            outline: 3px solid var(--accent-blue);
+            outline-offset: 3px;
         }
     </style>
 </head>
@@ -427,24 +507,15 @@
         <section class="hero">
             <div class="container hero-content">
                 <div class="hero-image">
-                    <!-- 
-                        INSTRUKSI GAMBAR: 
-                        Ganti src="iphone11-red.jpg" dengan nama file gambar Anda.
-                        Simpan gambar tersebut di folder yang sama dengan file index.html ini.
-                    -->
                     <img src="iphone11-red.jpeg" alt="Unit iPhone 11 Bea Cukai 128GB warna Red beserta kotaknya" width="600" height="450" loading="eager">
                 </div>
                 <div class="hero-text">
+                    <span class="badge">Indent / Pre-Order</span>
                     <h1>iPhone 11 Bea Cukai 128GB Red — Harga Rp3.900.000</h1>
                     <div class="hero-price">Rp3.900.000</div>
                     <p class="hero-summary">
-                        Penawaran iPhone 11 dengan penyimpanan 128GB warna Red. Unit menggunakan sistem pemesanan melalui pemasok tepercaya (indent). Kelengkapan setbox dan Battery Health 80%.
+                        Penawaran iPhone 11 dengan penyimpanan 128GB warna Red. Unit menggunakan sistem pemesanan melalui pemasok tepercaya. Kelengkapan setbox dan Battery Health 80%.
                     </p>
-                    <!-- 
-                        INSTRUKSI WA: 
-                        Ganti 628XXXXXXXXXX dengan nomor WhatsApp Anda (awali dengan 62).
-                        Pesan otomatis sudah disesuaikan dengan permintaan.
-                    -->
                     <a href="https://wa.me/6287865712625?text=Halo,%20saya%20tertarik%20dengan%20iPhone%2011%20Bea%20Cukai%20128GB%20Red.%20Mohon%20info%20ketersediaan%20unit,%20kondisi%20fisik,%20status%20IMEI/jaringan%20seluler,%20estimasi%20kedatangan,%20serta%20ketentuan%20DP%20dan%20pembatalan." class="btn-wa" target="_blank" rel="noopener noreferrer">
                         Tanyakan via WhatsApp
                     </a>
@@ -549,7 +620,7 @@
             <div class="container">
                 <h2 class="section-title">Pemeriksaan Sebelum Pelunasan</h2>
                 <div class="card">
-                    <p style="margin-bottom: 20px;">Disarankan untuk memeriksa hal-hal berikut saat unit tiba:</p>
+                    <p style="margin-bottom: 25px;">Disarankan untuk memeriksa hal-hal berikut saat unit tiba:</p>
                     <ul class="check-list">
                         <li>Kesesuaian model, warna (Red), dan kapasitas penyimpanan (128GB).</li>
                         <li>Kondisi layar dan fungsi sentuh.</li>
@@ -571,12 +642,12 @@
             <div class="container">
                 <h2 class="section-title">Transparansi & Kepercayaan</h2>
                 <div class="card">
-                    <p style="margin-bottom: 15px;">Kami mengedepankan kejelasan informasi sebelum Anda memutuskan untuk memesan:</p>
-                    <ul style="margin-left: 20px; color: var(--text-light);">
-                        <li style="margin-bottom: 10px;">Unit yang ditawarkan <strong>bukan merupakan stok fisik yang siap kirim</strong>, melainkan dipesan melalui pemasok.</li>
-                        <li style="margin-bottom: 10px;">Anda sangat dianjurkan untuk menanyakan detail apapun yang belum jelas sebelum mengambil keputusan.</li>
-                        <li style="margin-bottom: 10px;">Spesifikasi yang belum diverifikasi (seperti status IMEI, fungsi Face ID, dll) akan dikonfirmasi terlebih dahulu.</li>
-                        <li style="margin-bottom: 10px;">Pastikan Anda telah membaca, memahami, dan menyetujui seluruh ketentuan transaksi sebelum mentransfer DP.</li>
+                    <p style="margin-bottom: 20px; font-weight: 500;">Kami mengedepankan kejelasan informasi sebelum Anda memutuskan untuk memesan:</p>
+                    <ul style="margin-left: 20px; color: var(--text-light); line-height: 1.8;">
+                        <li style="margin-bottom: 12px;">Unit yang ditawarkan <strong>bukan merupakan stok fisik yang siap kirim</strong>, melainkan dipesan melalui pemasok.</li>
+                        <li style="margin-bottom: 12px;">Anda sangat dianjurkan untuk menanyakan detail apapun yang belum jelas sebelum mengambil keputusan.</li>
+                        <li style="margin-bottom: 12px;">Spesifikasi yang belum diverifikasi (seperti status IMEI, fungsi Face ID, dll) akan dikonfirmasi terlebih dahulu.</li>
+                        <li style="margin-bottom: 12px;">Pastikan Anda telah membaca, memahami, dan menyetujui seluruh ketentuan transaksi sebelum mentransfer DP.</li>
                     </ul>
                 </div>
             </div>
@@ -628,7 +699,7 @@
         <section class="cta-closing">
             <div class="container">
                 <h2>Masih ingin memastikan detail iPhone 11 Bea Cukai 128GB Red?</h2>
-                <p style="color: var(--text-light); margin-bottom: 30px;">Hubungi kami untuk menanyakan ketersediaan, kondisi unit, status IMEI/jaringan, estimasi, dan ketentuan DP secara transparan.</p>
+                <p style="color: var(--text-light);">Hubungi kami untuk menanyakan ketersediaan, kondisi unit, status IMEI/jaringan, estimasi, dan ketentuan DP secara transparan.</p>
                 <a href="https://wa.me/6287865712625?text=Halo,%20saya%20ingin%20menanyakan%20detail%20pemesanan%20iPhone%2011%20Bea%20Cukai%20128GB%20Red.%20Mohon%20info%20ketersediaan,%20kondisi%20unit,%20status%20IMEI/jaringan,%20estimasi%20kedatangan,%20dan%20ketentuan%20DP." class="btn-wa" target="_blank" rel="noopener noreferrer">
                     Tanyakan Detail Pemesanan via WhatsApp
                 </a>
